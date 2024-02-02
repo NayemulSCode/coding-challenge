@@ -1,0 +1,25 @@
+@import "abstract/variables";
+@import "bootstrap/scss/bootstrap.scss";
+@import "abstract/base";
+
+.btn-a {
+  background-color: $color-a;
+  outline-color: $color-a;
+}
+.btn-a:hover {
+  border-color: $color-a;
+}
+.btn-b {
+  background-color: $color-b;
+  outline-color: $color-b;
+}
+.btn-b:hover {
+  border-color: $color-b;
+}
+.btn-c {
+  background-color: white;
+  border-color: $color-c;
+}
+.btn-c:hover {
+  border-color: $color-c;
+}
